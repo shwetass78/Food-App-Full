@@ -1,0 +1,26 @@
+.homeContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.homeStickyDiv {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.homeScrollableDiv {
+  width: 100%;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------- */

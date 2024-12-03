@@ -1,0 +1,90 @@
+.header {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.headerContainer {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: bisque; */
+}
+
+.headerItem1 {
+  flex: 1;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.homeOrderLogo {
+  height: 80%;
+}
+
+.headerItem2 {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.headerItem2 ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.headerItem2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerItem2 ul li .active {
+  color: #fff;
+  background-color: #fc8a06;
+  padding: 5px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.headerItem3 {
+  flex: 0.6;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 5px 20px;
+  border-radius: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid red; */
+}
+
+.headerItem3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.headerItem3 a.active {
+  color: #fff;
+  background-color: #fc8a06;
+  padding: 5px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.headerItem3 a:hover {
+  background-color: #0056b3;
+  color: #fff;
+  transition: background-color 0.3s;
+}

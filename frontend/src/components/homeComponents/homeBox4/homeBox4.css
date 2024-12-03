@@ -1,0 +1,241 @@
+.homeBox4 {
+  width: 90vw;
+  height: 200vh;
+  margin-bottom: 30px;
+}
+
+.homeBox4Item1 {
+  width: 100%;
+  height: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.homeBox4Item1 img {
+  width: 100%;
+  height: 95%;
+}
+
+/* --------------------------- */
+
+.homeBox4Item2 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.homeBox4Item2Img1 {
+  width: 50%;
+  height: 100%;
+}
+
+.homeBox4Item2Img1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.homeBox4Item2Img2 {
+  width: 50%;
+  height: 100%;
+}
+
+.homeBox4Item2Img2 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* -------------------------------- */
+
+.homeBox4Item3 {
+  width: 100%;
+  height: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #d9d9d9;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
+.homeBox4Item3TopBox {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  /* background-color: rgb(215, 250, 221); */
+}
+
+.homeBox4Item3TopLeft {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  padding-left: 5px;
+  /* background-color: rgb(240, 237, 183); */
+}
+
+.homeBox4Item3TopRight {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: rgb(240, 183, 217); */
+}
+
+.homeBox4Item3TopRight ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10%;
+  padding-right: 4%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.homeBox4Item3TopRight ul li {
+  cursor: pointer;
+}
+
+.homeBox4Item3TopRight ul li.activeButton {
+  border: 1px solid #fc8a06;
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.homeBox4Item3BottomBox {
+  width: 90%;
+  height: 70%;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  /* background-color: rgb(162, 194, 214); */
+}
+
+.homeBox4Item3BottomBoxLeft {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  gap: 4%;
+  padding-bottom: 3%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+}
+
+.homeBox4Item3Btn1 {
+  width: 70%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 20px;
+  background-color: #fc8a06;
+}
+
+.homeBox4Item3BottomBoxLeft p {
+  font-weight: 500;
+  /* border: 1px solid red; */
+}
+
+.homeBox4Item3BottomBoxRight {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.homeBox4Item3CardBox {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.homeBox4Item3Card {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #d9d9d9;
+  border-radius: 10px;
+  gap: 2%;
+}
+
+.homeBox4Item3Card p {
+  font-size: 12px;
+}
+
+.homeBox4Item3CardImg {
+  width: 60%;
+  height: 60%;
+}
+
+.homeBox4Item3DescBox {
+  width: 100%;
+  height: 20%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  /* background-color: #fc8a06; */
+}
+
+/* -------------------------------- */
+
+.homeBox4Item4 {
+  width: 100%;
+  height: 6%;
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fc8a06;
+}
+
+.homeBox4Item4Item {
+  flex: 1;
+  height: 65%;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #d9d9d9;
+}
+
+.homeBox4Item4Item1 {
+  flex: 1;
+  height: 65%;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

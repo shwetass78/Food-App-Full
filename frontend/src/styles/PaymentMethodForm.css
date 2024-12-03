@@ -1,0 +1,43 @@
+.payment-form-container {
+  @apply container mx-auto p-6 bg-gray-50;
+}
+
+.payment-form-card {
+  @apply max-w-md mx-auto bg-white rounded-lg shadow-lg p-8;
+}
+
+.payment-form-title {
+  @apply text-2xl font-bold mb-8 text-gray-900;
+}
+
+.payment-form {
+  @apply space-y-6;
+}
+
+.form-group {
+  @apply space-y-1;
+}
+
+.form-label {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.form-input {
+  @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 transition-all duration-300;
+}
+
+.expiry-group {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.form-actions {
+  @apply flex justify-end space-x-3 mt-8;
+}
+
+.cancel-button {
+  @apply px-4 py-2 border rounded-md text-gray-600 hover:bg-gray-50 transition-all duration-300;
+}
+
+.save-button {
+  @apply px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-all duration-300;
+}

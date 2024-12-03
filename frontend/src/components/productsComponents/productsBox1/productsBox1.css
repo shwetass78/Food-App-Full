@@ -1,0 +1,109 @@
+.products {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.productsBox1Container {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* top: 160px; */
+  /* background-color: antiquewhite; */
+}
+
+.productsBox1Left {
+  width: 50%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 10%;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.productsBox1Left h4 {
+  font-size: 32px;
+}
+
+.productsBox1Left p {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.productsBox1LeftBtnDiv {
+  width: 60%;
+  display: flex;
+  gap: 10px;
+}
+
+.productsBox1LeftBtn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.productsBox1LeftBtn img {
+  height: 50%;
+}
+
+.productsBox1Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.productsBox1Right img {
+  width: 90%;
+  height: 90%;
+}
+
+.productsBox1Item1 {
+  background: #fc8a06;
+  position: relative;
+  bottom: 14%;
+  right: 40%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.productsBox1Item1 img {
+  height: 20px;
+}
+
+.productsBox1Item2 {
+  position: relative;
+  bottom: 30%;
+  right: 2%;
+}
+
+.productsBox1Item2 img {
+  height: 100px;
+}

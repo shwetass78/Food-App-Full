@@ -1,0 +1,172 @@
+.footer {
+  width: 100vw;
+  height: 30vh;
+}
+
+.top {
+  height: 84%;
+  display: flex;
+  background: #d9d9d9;
+}
+
+.box2 {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  padding-right: 5%;
+}
+
+.box22 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo_2 {
+  width: 55%;
+  height: 20%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.storeFooter {
+  width: 100%;
+  /* height: 20%; */
+  margin-bottom: 10px;
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.box33 {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.mailBox {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #cac9c9;
+  border-radius: 20px;
+  padding: 0 0 0 40px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.subscribeBtn {
+  height: 100%;
+  color: white;
+  background: #fc8a06;
+  border-radius: 20px;
+  padding: 0 30px;
+  border: none;
+}
+
+.desc {
+  padding: 0 0 0 40px;
+  font-size: 12px;
+}
+
+.descSpan {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.socialIconBox {
+  display: flex;
+  width: 60%;
+  padding: 0 30px;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.socialIconBox li {
+  list-style: none;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.socialIconBox li img {
+  height: 80%;
+}
+
+.box4 {
+  width: 35%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 3%;
+}
+
+.leftList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.leftList ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.rightList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightList ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom {
+  height: 16%;
+  padding: 0 6%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(11, 9, 6);
+}
+
+.bottomBox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.bottomBox1 ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.bottomBox1 li {
+  cursor: pointer;
+}

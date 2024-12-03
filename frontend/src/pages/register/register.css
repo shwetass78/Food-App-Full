@@ -1,0 +1,111 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.registerContainer {
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+
+.registerFormContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo11 {
+  width: 50%;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  /* border: 1px solid red; */
+}
+
+.logoImage1 {
+  height: 70%;
+}
+
+.description1 {
+  width: 50%;
+  height: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+}
+
+.description1 h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.description1 p {
+  font-size: 14px;
+
+  /* border: 1px solid red; */
+}
+
+.registerForm {
+  width: 50%;
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  /* border: 1px solid red; */
+}
+
+.input1 {
+  height: 8%;
+  border-radius: 20px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid #918d8d66;
+}
+
+.signUpBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+  border-radius: 20px;
+  background: #fc8a06;
+  color: white;
+  font-weight: 500;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+
+.signIn {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.imageContainer1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.artImage1 {
+  width: 95%;
+  height: 95%;
+  object-fit: fill;
+  object-position: center;
+}

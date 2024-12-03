@@ -1,0 +1,155 @@
+.homeBox1 {
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  background: #f6f4f4;
+  border-radius: 10px;
+}
+
+.homeBox1Left {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5%;
+  /* background-color: antiquewhite; */
+}
+.para1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.para2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.homeBox1Left h2 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.homeBox1Right {
+  flex: 6;
+  height: 100%;
+  position: relative;
+  /* background-color: rgb(242, 172, 80); */
+}
+
+.homeBox1Right1 {
+  position: absolute;
+  height: 90%;
+  right: 45%;
+  bottom: 0;
+  z-index: 3;
+}
+.homeBox1Right1 img {
+  height: 100%;
+}
+
+.homeBox1Right2 {
+  position: absolute;
+  height: 70%;
+  right: 37%;
+  bottom: 0;
+  z-index: 2;
+}
+.homeBox1Right2 img {
+  height: 100%;
+}
+
+.homeBox1Right3 {
+  position: absolute;
+  width: 38%;
+  height: 30%;
+  left: 50%;
+  top: 10%;
+  background-image: url("./image/homeImage/Group1.png");
+  background-size: contain;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: center;
+  padding: 0 0 3% 3%;
+}
+
+.homeBox1Right3 p {
+  margin-top: 1%;
+  font-size: 12px;
+}
+
+.homeBox1Right4 {
+  position: absolute;
+  width: 38%;
+  height: 30%;
+  left: 57%;
+  top: 37%;
+  background-image: url("./image/homeImage/Group2.png");
+  background-size: contain;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: center;
+  padding: 0 0 3% 3%;
+}
+
+.homeBox1Right4 p {
+  margin-top: 1%;
+  font-size: 12px;
+}
+
+.homeBox1Right5 {
+  position: absolute;
+  width: 38%;
+  height: 30%;
+  left: 53%;
+  bottom: 5%;
+  z-index: 3;
+}
+.homeBox1Right5 img {
+  width: 100%;
+}
+
+.homeBox1Right6 {
+  position: absolute;
+  height: 92%;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.homeBox1Right6 img {
+  height: 100%;
+}
+
+.searchBox {
+  width: 70%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 0 0 0 20px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.homeSearchBtn {
+  height: 100%;
+  width: 50%;
+  color: white;
+  background: #fc8a06;
+  border-radius: 20px;
+  padding: 0 30px;
+  border: none;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}

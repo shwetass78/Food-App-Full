@@ -1,0 +1,63 @@
+.productsBox4Container {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 5% 3%;
+  background: #fbfbfb;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.infoBox {
+  flex: 1;
+  padding: 20px;
+  background: #fbfbfb;
+}
+
+.operationalTimes {
+  background-color: #111827;
+  color: #ffffff;
+}
+
+.infoHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.infoIcon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.infoTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.infoDetails {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.infoDetails li {
+  margin-bottom: 8px;
+}
+
+.infoDetails a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.infoDetails a:hover {
+  text-decoration: underline;
+}
+
+.deliveryEstimation {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}

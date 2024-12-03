@@ -1,0 +1,64 @@
+.homeBox3 {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 1px solid red; */
+}
+
+.homeBox3top {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  height: 20%;
+  border-radius: 10px;
+  padding-left: 2%;
+  margin-bottom: 15px;
+  /* border: 1px solid red; */
+}
+
+.homeBox3top h4 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.homeBox3Bottom {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  gap: 1%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.homeBox3BottomCard {
+  flex: 1;
+  height: 100%;
+  border: 1px solid #0000001a;
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.homeBox3BottomImg {
+  width: 100%;
+  height: 80%;
+}
+
+.homeBox3CardContent {
+  width: 100%;
+  height: 20%;
+  padding-left: 10%;
+}
+
+.homeBox3CardTitle {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.homeBox3CardDescription {
+  font-size: 12px;
+  color: #fc8a06;
+}
