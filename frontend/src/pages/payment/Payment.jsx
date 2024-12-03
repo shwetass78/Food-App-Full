@@ -3,7 +3,7 @@ import { useCart } from "../../context/CartContext";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
-import "./Payment.css";
+import "./payment.css";
 
 function Payment() {
   const navigate = useNavigate();
